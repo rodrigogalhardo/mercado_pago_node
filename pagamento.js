@@ -13,7 +13,7 @@ app.use("/payment", async (req, res) => {
     installments: 1,
     payment_method_id: "visa",
     payer: {
-      email: "alva@hotmail.com"
+      email: "galhardo@teste.com"
     }
   };
 
