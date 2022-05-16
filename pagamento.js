@@ -8,7 +8,7 @@ app.use("/payment", async (req, res) => {
 
   var payment_data = {
     transaction_amount: 169,
-    token: "ff8080814c11e237014c1ff593b57b4d",
+    token: "your-token-here",
     description: "Aerodynamic Copper Plate",
     installments: 1,
     payment_method_id: "visa",
